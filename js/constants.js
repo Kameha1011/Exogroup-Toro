@@ -79,7 +79,7 @@ export const IMDB_URLS = {
   herbie_fully_loaded: "https://www.imdb.com/es-es/title/tt0400497",
   madagascar: "https://www.imdb.com/es-es/title/tt0351283",
   shrek: "https://www.imdb.com/es-es/title/tt0126029",
-  megamin: "https://www.imdb.com/es-es/title/tt1001526",
+  megamind: "https://www.imdb.com/es-es/title/tt1001526",
 };
 
 export const QUESTIONS = [
