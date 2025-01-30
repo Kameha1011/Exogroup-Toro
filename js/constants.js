@@ -1,53 +1,17 @@
-export const MOVIES = [
-  {
-    name: "the_gray_man",
-    next: ["bullet_train", "thor_love_and_thunder", "top_gun_maverick"],
-  },
-  {
-    name: "blonde",
-    next: ["jackie", "rocketman", "a_star_is_born"],
-  },
-  {
-    name: "minions",
-    next: ["your_name", "cars", "kung_fu_panda"],
-  },
-  {
-    name: "bullet_train",
-    next: ["kingsman", "john_wick", "once_upon_a_time_in_hollywood"],
-  },
-  {
-    name: "thor_love_and_thunder",
-    next: ["flash", "the_batman", "spiderman_no_way_home"],
-  },
-  {
-    name: "top_gun_maverick",
-    next: ["dunkirk", "flight", "black_hawk_down"],
-  },
-  {
-    name: "your_name",
-    next: ["akira", "perfect_blue", "spirited_away"],
-  },
-  {
-    name: "cars",
-    next: ["monsters_inc", "toy_story", "herbie_fully_loaded"],
-  },
-  {
-    name: "kung_fu_panda",
-    next: ["madagascar", "shrek", "megamind"],
-  },
-  {
-    name: "jackie",
-    next: ["lincoln", "the_iron_lady", "the_butler"],
-  },
-  {
-    name: "rocketman",
-    next: ["elvis", "bohemian_rhapsody", "walk_the_line"],
-  },
-  {
-    name: "a_star_is_born",
-    next: ["whiplash", "the_bodyguard", "marriage_story"],
-  },
-];
+export const MOVIES = {
+  the_gray_man: ["bullet_train", "thor_love_and_thunder", "top_gun_maverick"],
+  blonde: ["jackie", "rocketman", "a_star_is_born"],
+  minions: ["your_name", "cars", "kung_fu_panda"],
+  bullet_train: ["kingsman", "john_wick", "once_upon_a_time_in_hollywood"],
+  thor_love_and_thunder: ["flash", "the_batman", "spiderman_no_way_home"],
+  top_gun_maverick: ["dunkirk", "flight", "black_hawk_down"],
+  your_name: ["akira", "perfect_blue", "spirited_away"],
+  cars: ["monsters_inc", "toy_story", "herbie_fully_loaded"],
+  kung_fu_panda: ["madagascar", "shrek", "megamind"],
+  jackie: ["lincoln", "the_iron_lady", "the_butler"],
+  rocketman: ["elvis", "bohemian_rhapsody", "walk_the_line"],
+  a_star_is_born: ["whiplash", "the_bodyguard", "marriage_story"],
+};
 
 export const IMDB_URLS = {
   black_hawk_down:

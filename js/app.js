@@ -1,11 +1,10 @@
-import { QUESTIONS } from "./constants.js";
+import { QUESTIONS, MOVIES } from "./constants.js";
 import { asignSelectionEvents, renderMovies } from "./moviesSelection.js";
 import { renderStageIndicator, updateQuestion, updateQuestionIndicator } from "./questionIndicator.js";
-import { buildGraph } from "./utils/graphUtils.js";
 
 const state = {
+  movies: MOVIES,
   currentQuestion: 0,
-  graph: buildGraph(),
   actual_movies: ["blonde", "the_gray_man", "minions"],
 };
 

@@ -1,4 +1,4 @@
-import { IMDB_URLS } from "./constants.js";
+import { IMDB_URLS, MOVIES } from "./constants.js";
 import { setCtaUrl } from "./cta.js";
 import { isQuestionaryCompleted, updateDOM } from "./utils/functions.js";
 import { getNextMovies } from "./utils/graphUtils.js";
@@ -39,7 +39,7 @@ export function asignSelectionEvents(state) {
 
   for (const movie of movieOptions) {
     movie.addEventListener("click", () => {
-      state.actual_movies = getNextMovies(state.graph, movie.id);
+      state.actual_movies = MOVIES[movie.id];
       state.currentQuestion++;
       setCtaUrl(IMDB_URLS[movie.id]);
       updateDOM(state);
